@@ -15,13 +15,13 @@
     }
 
     /* turn paragraphs into columns */
-    .face p {
+    figure {
         columns: 2;
     }
 
     @page {
         /* reset page margins */
-        margin: .25in;
+        margin: 2in;
     }
 
 }
