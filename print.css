@@ -4,7 +4,7 @@
     
     body {
         /* serif font for easier reading */
-        font-family: serif;
+        font-family: sans-serif;
         /* increase font size */
         font-size: 1.25em;
 }
@@ -14,7 +14,7 @@
         content: " " attr(href); 
     }
 
-    /* turn paragraphs into colums */
+    /* turn paragraphs into columns */
     .face p {
         columns: 2;
     }
