@@ -1,5 +1,100 @@
+/*Open Props Import */
+@import "https://unpkg.com/open-props";
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+
+
+
+  
+  * {
+    font-family: 'Stick', sans-serif;
+}
+
 body {
-    font-family: sans-serif;
-    font-size: 1.5rem;
-    color: coral
+  background-color: bisque;
+  background-image: radial-gradient(circle at bottom, darkgrey, #0000), var(--noise-5); 
+  filter:var(--noise-filter-2);
+  height: 400vh;
+   width: 800px;
+  margin: 0 auto 0 auto;
+} 
+
+/* main {
+  width: 800px;
+  margin: 0 auto 0 auto;
+} */
+
+audio {
+  width: 100%;
+  padding: 10px 20px 20px 10px;
+  justify-content: center;
+  border-radius: 180px;
+   animation: var(--animation-slide-in-right);
+  
+}
+
+h1 {
+  font-size: 100px;  
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  animation: var(--animation-slide-in-down);
+}
+
+
+#callout1, #callout2, #callout3 {
+  animation: var(--animation-blink);
+}
+
+
+/* #intro {
+  font-size: 80px;
+  padding-bottom: 20px;
+  animation: var(--animation-slide-in-left);
+} */
+
+h2 {
+  color: floralwhite;
+   animation: var(--animation-slide-in-down);
+}
+
+h3 {
+  color: floralwhite;
+   animation: var(--animation-slide-in-up);
+}
+#c, #Q, #callout1 {
+  color: 	#8b0000;
+}
+
+#a, #k, #callout2 {
+  color: #006400;
+}
+
+#n, #t, #i2, #callout3 {
+  color: 	#ff8c00;
+}
+
+#i {
+  color: dimgrey;
+}
+
+article {
+  animation: var(--animation-slide-in-left);
+  display: flex;
+  justify-content: center;
+  color: 	dimgray;
+  font-size: 32px;
+  padding-bottom: 40px;
+
+}
+
+#hook {
+   font-size: 72px;
+  animation: var(--animation-slide-in-left);
+}
+
+#hook2 {
+font-size: 72px;
+animation: var(--animation-slide-in-up);
 }
