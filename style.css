@@ -15,7 +15,7 @@ body {
   background-color: bisque;
   background-image: radial-gradient(circle at bottom, darkgrey, #0000), var(--noise-5); 
   filter:var(--noise-filter-2);
-  height: 400vh;
+  height: 500vh;
    width: 800px;
   margin: 0 auto 0 auto;
 } 
