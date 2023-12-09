@@ -40,6 +40,7 @@ h1 {
   justify-content: center;
   text-decoration: none;
   animation: var(--animation-slide-in-down);
+  padding-left: 20px;
 }
 
 
@@ -57,11 +58,13 @@ h1 {
 h2 {
   color: floralwhite;
    animation: var(--animation-slide-in-down);
+   padding-left: 20px;
 }
 
 h3 {
   color: floralwhite;
    animation: var(--animation-slide-in-up);
+   padding-left: 20px;
 }
 #c, #Q, #callout1 {
   color: 	#8b0000;
@@ -86,6 +89,7 @@ article {
   color: 	dimgray;
   font-size: 32px;
   padding-bottom: 40px;
+  padding-left: 20px;
 
 }
 
